@@ -1,3 +1,10 @@
+:root {
+  --color-one: #b7b6b6;
+  --color-two: #000;
+  --color-three: #cfcfcf;
+  --color-four: #f1f1f163;
+}
+
 html {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -24,6 +31,13 @@ body {
 }
 
 .container-right {
+  margin-right: 2rem;
+  border-left: thin solid;
+  padding-left: 4rem;
+  padding-top: 2rem;
+  border-color: var(--color-three);
+  display: grid;
+  grid-template-rows: 35% 65%;
 }
 
 .title-principal {
@@ -42,10 +56,58 @@ body {
 
 .description {
   text-decoration: underline;
-  margin-bottom: 0;
+  color: var(--color-one);
+  margin-top: 0;
 }
 
 .description-date {
   font-style: italic;
-  margin-top: 0;
+  color: var(--color-one);
+  background-color: var(--color-two);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 0;
+}
+
+.container-definition {
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.title-secondary  {
+  text-transform: uppercase;
+  margin-left: 2rem;
+}
+
+.description-proyect {
+  line-height: 1.6;
+  font-size: 1.1rem;
+  font-weight: lighter;
+  margin-top: 2rem;
+}
+
+.container-challenge {
+  border-radius: 3rem; 
+  background: var(--color-four);
+  margin: 2rem;
+}
+
+.title-challenge {
+  text-align: center;
+  text-transform: lowercase;
+  font-weight: normal;
+  letter-spacing: 0.2rem;
+  margin-top: 3rem;
+}
+
+.challenge-list {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.7rem;
+  margin-top: 4rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  text-align: justify;
 }
