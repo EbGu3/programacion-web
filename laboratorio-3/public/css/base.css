@@ -4,6 +4,7 @@
   --color-three:  #025930;
   --color-four:   #03A65A;
   --color-five:   #04BF68;
+  --color-six:    #FFFFFF;
 }
 
 html {
@@ -11,5 +12,10 @@ html {
 }
 
 body {
+  display: grid;
+  grid-template-rows: 12% 68% 10%;
+  height: 100vh;
+  padding: 0rem;
+  margin: 0rem;
   overflow: hidden;
 }

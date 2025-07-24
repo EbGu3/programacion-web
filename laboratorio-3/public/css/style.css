@@ -1,0 +1,32 @@
+.header-container {
+  display: grid;
+  grid-template-columns: 10% 95%;
+  background: var(--color-two);
+  justify-content: center;
+  align-items: center;
+}
+
+.container-icon {
+  margin-left: 4rem;
+}
+
+.icon-header {
+  color: var(--color-five) !important;
+  background: var(--color-six);
+  padding: 0.5rem;
+  border-radius: 2rem;
+  margin: auto;
+}
+
+.title-app {
+  margin: 0rem;
+  text-transform: uppercase;
+  color: var(--color-six);
+  letter-spacing: 0.2rem;
+}
+
+.subtitle-app {
+  color: var(--color-five);
+  font-weight: lighter;
+  margin-left: 1rem;
+}
