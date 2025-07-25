@@ -5,6 +5,8 @@
   --color-four:   #03A65A;
   --color-five:   #04BF68;
   --color-six:    #FFFFFF;
+  --color-seven:  rgba(139, 174, 255);
+  --color-eight:  rgb(255, 238, 0);
 }
 
 html {

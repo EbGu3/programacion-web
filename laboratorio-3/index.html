@@ -6,6 +6,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="public/css/base.css" />
   <link rel="stylesheet" href="public/css/style.css" />
+  <link rel="stylesheet" href="public/css/main.css" />
   <script src="src/feature/app.js" defer></script>
 </head>
 <body>
@@ -22,10 +23,44 @@
       <span class="subtitle-app">development eber guerra</span>
     </section>
   </header>
-  <!--Cuerpo-->
-  <main>
 
+  <!--Cuerpo-->
+  <main class="main-container">
+    <section class="option-group">
+      <div class="create">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-chat-right-text-fill icon-task" viewBox="0 0 16 16">
+          <path d="M16 2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h9.586a1 1 0 0 1 .707.293l2.853 2.853a.5.5 0 0 0 .854-.353zM3.5 3h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1 0-1m0 2.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1 0-1m0 2.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1"/>
+        </svg>
+        <input 
+          type="text" 
+          name="task"
+          class="input-task"
+          placeholder="Write your task here"
+          id="task-value"
+        >
+        <button
+          type="button"
+          class="btn-create"
+          id="btn-add"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+            <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+          </svg>
+          <span class="text-btn">create</span>
+        </button>
+      </div>
+      <section class="info">
+        <p class="text-into">Status</p>
+        <p class="text-into">Hour</p>
+      </section>
+    </section>
+
+    <section>
+      <div id="table-task"></div>
+    </section>
   </main>
+
   <!--Footer-->
   <footer class="footer-container">
     <span class="university">(Universidad Rafael Landívar)</span>

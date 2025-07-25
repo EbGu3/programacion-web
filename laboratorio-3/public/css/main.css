@@ -1,0 +1,95 @@
+.main-container {
+  display: grid;
+  grid-template-rows: 20% 80%;
+}
+
+.option-group {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.create {
+  display: flex;
+  align-items: center;
+}
+
+.icon-task {
+  color: var(--color-five);
+  margin-left: 3rem;
+}
+
+.input-task {
+  width: 70%;
+  height: 0.1rem;
+  margin: 1rem;
+  padding: 1.2rem;
+  font-weight: lighter;
+  letter-spacing: 0.1rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: thin solid #00000038;
+}
+
+.input-task:focus {
+  outline: none;
+}
+
+.btn-create {
+  display: flex;
+  padding: 0.5rem 1.2rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: var(--color-eight) !important;
+  box-shadow: 2px 3px 4px gray;
+}
+
+.text-btn {
+  margin-left: 1rem;
+  margin-top: 0.1rem;
+  text-transform: uppercase;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+}
+
+.text-into {
+  text-transform: uppercase;
+  color: var(--color-two)
+}
+
+
+#table-task {
+  margin-top: 1rem;
+}
+
+.task {
+  display: grid;
+  grid-template-columns: 60% 20% 20%;
+  margin-bottom: 0.5rem;
+}
+
+.item-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.value-task-style {
+  font-weight: lighter;
+  letter-spacing: 0.2rem;
+  margin: 0rem;
+  background: var(--color-three);
+  padding: 1rem;
+  color: white;
+  margin-left: 4rem;
+  border-radius: 2rem;
+  font-size: 0.8rem;
+  padding-left: 2rem;
+}
