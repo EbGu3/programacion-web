@@ -1,3 +1,6 @@
+/*
+  Hearder style
+*/
 .header-container {
   display: grid;
   grid-template-columns: 10% 95%;
@@ -29,4 +32,25 @@
   color: var(--color-five);
   font-weight: lighter;
   margin-left: 1rem;
+}
+
+/*
+  Footer Style
+*/
+.footer-container {
+  display: flex;
+  background: var(--color-two);
+  justify-content: center;
+  align-items: center;
+}
+
+.university {
+  color: var(--color-five);
+  font-weight: lighter;
+  margin-right: 0.5rem;
+  text-transform: uppercase∫;
+}
+
+.footer-text {
+  color: var(--color-six);
 }

@@ -13,7 +13,7 @@ html {
 
 body {
   display: grid;
-  grid-template-rows: 12% 68% 10%;
+  grid-template-rows: 12% 84% 4%;
   height: 100vh;
   padding: 0rem;
   margin: 0rem;
