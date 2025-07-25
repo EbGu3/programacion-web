@@ -44,6 +44,12 @@
   box-shadow: 2px 3px 4px gray;
 }
 
+.btn-create:active {
+  background-color: var(--color-one) !important;
+  color: white;
+  cursor: pointer;
+}
+
 .text-btn {
   margin-left: 1rem;
   margin-top: 0.1rem;
